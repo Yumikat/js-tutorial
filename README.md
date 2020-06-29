@@ -1,11 +1,11 @@
 ## JS Tutorial
 
-1. Recreate the page below:  You will need an html file, and a css file. Make sure they're connected properly. 
+1. Recreate the page below:  You will need an html file and a css file. Make sure they're linked properly. 
 Use whatever fonts and colors you want to.
 
 ![starting_page](/images/starting_page.png)
 
-2. Create a sub-directory for your images, and put the dice images into it. You can grab them from my images sub-directory.
+2. Create a sub-directory for your images, and put the dice images into it. You can grab them from [my images sub-directory](/images).
 Add a die image under each Player. 
 
 3. Create a js file and link to it from the index.html file.
