@@ -10,10 +10,10 @@ Add a die image under each Player.
 
 3. Create a js file and link to it from the index.html file.
 
-4. Create a random number generator function for the dice roll (1-6).
+4. Create a random number generator function for the dice roll (1-6). 
 
 5. Add a click event listener that will apply the random number to the click:  when a player clicks 
-on their die, the image should change to the appropriate image (it should roll a random number and display that image of die).
+on their die, the image should change to the appropriate image (it should roll a random number and display the image of die with the same number).
 
 6. Apply that to both players' dice.
 
