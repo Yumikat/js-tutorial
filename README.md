@@ -12,8 +12,8 @@ Add a die image under each Player.
 
 4. Create a random number generator function for the dice roll (1-6). 
 
-5. Add a click event listener that will apply the random number to the click:  when a player clicks 
-on their die, the image should change to the appropriate image (it should roll a random number and display the image of die with the same number).
+5. Add an event listener that will apply the random number to the refresh:  when a player hits refresh, 
+both dice should change to a new, random side image (it should roll a random number and display the image of die with the same number).
 
 6. Apply that to both players' dice.
 
