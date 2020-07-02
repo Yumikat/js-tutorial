@@ -15,9 +15,7 @@ Add a die image under each Player.
 5. Add an event listener that will apply the random number to the refresh:  when a player hits refresh, 
 both dice should change to a new, random side image (it should roll a random number and display the image of die with the same number).
 
-6. Apply that to both players' dice.
-
-7. Change the text in the h1 element to reflect a winner (highest roll), or draw if the rolls are the same. Add the flag 
-image to the winner's side of the screen. You can use an emoji for this, and it doesn't even have to be a flag! 🚩  Use any emoji you want to.
+7. Change the text in the h1 element to reflect a winner (highest roll) (something like, "Player 1 wins!"), or "draw" if the rolls are the same. Add the flag 
+emoji to the winner's side of the screen. You can use an emoji for this, and it doesn't even have to be a flag! 🚩  Use any emoji you want to. 🦄 🍩 💥
 
 8. Feel free to add a footer with a message on it.
