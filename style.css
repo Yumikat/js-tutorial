@@ -1,1 +1,6 @@
 img[alt=starting_page] { width: 200px; }
+
+body {
+    font-family: 'Grenze Gotisch', cursive;
+    text-align: center;
+}
