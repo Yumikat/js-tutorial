@@ -4,3 +4,7 @@ body {
     font-family: 'Grenze Gotisch', cursive;
     text-align: center;
 }
+
+.refresh:hover {
+    color: blue;
+}
