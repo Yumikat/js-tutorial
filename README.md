@@ -24,4 +24,5 @@ emoji to the winner's side of the screen. You can use an emoji for this, and it 
 
 <!-- Okay, so I got most of the parts working, albeit - in a very roundabout way. I KNOW there has to be better ways to do this... But, this is
 what I've been able to come up with so far. I am not sure why I cannot get the emoji to work out correctly.... Oh nevermind - I guess I didn't have the updated CDN for 
-font awesome. Well, I think I have all parts working now. -->
+font awesome. Well, I think I have all parts working now. 
+Tell me what you think-->
