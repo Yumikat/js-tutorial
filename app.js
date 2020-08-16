@@ -1,70 +1,40 @@
 var p1dice;
 var p2dice;
 var win;
+var one = "1";
+var two = "2";
 
 //Generating random dice #s
-function randomRoll(){
-    return Math.floor(Math.random()*6 + 1);
+function randomRoll() {
+    return Math.floor(Math.random() * 6 + 1);
 }
 
 //When refresh me is clicked, sets random dice numbers to each player
-$(".refresh").on("click", function() {
+$(".refresh").on("click", function () {
     $("#p1emoji").empty();
     $("#p2emoji").empty();
     p1dice = randomRoll();
     p2dice = randomRoll();
     console.log("p1:" + p1dice + " p2:" + p2dice);
-//sets the image in the display to the dice number rolled
-    imageset1(p1dice);
-    imageset2(p2dice);
+    //sets the image in the display to the dice number rolled
+    image(p1dice, one);
+    image(p2dice, two);
     findWinner(p1dice, p2dice);
 }
 )
 
-//setting the images for player 1 (i know there's probably a way to do this quicker and reuse the code for bother players, but I'm not
-//sure how to do it exactly. This was the only method that I could think of, since I couldn't use a <span> inside of the src link)
-function imageset1(x){
-    if (x == 1) {
-        $(".image1").html("<img src= 'images/dice1.png' />");
-    }
-    else if (x == 2) {
-        $(".image1").html("<img src= 'images/dice2.png' />");
-    }
-    else if (x == 3) {
-        $(".image1").html("<img src= 'images/dice3.png' />");
-    }
-    else if (x == 4) {
-        $(".image1").html("<img src= 'images/dice4.png' />");
-    }
-    else if (x == 5) {
-        $(".image1").html("<img src= 'images/dice5.png' />");
+//setting the images for players 1 & 2
+function image(x, y) {
+    link = `"<img src='images/dice` + x + `.png' />"`;
+    if (y == "1") {
+        $(".image1").html(link);
     }
     else {
-        $(".image1").html("<img src= 'images/dice6.png' />");
+        $(".image2").html(link);
     }
 }
 
-function imageset2(x){
-    if (x == 1) {
-        $(".image2").html("<img src= 'images/dice1.png' />");
-    }
-    else if (x == 2) {
-        $(".image2").html("<img src= 'images/dice2.png' />");
-    }
-    else if (x == 3) {
-        $(".image2").html("<img src= 'images/dice3.png' />");
-    }
-    else if (x == 4) {
-        $(".image2").html("<img src= 'images/dice4.png' />");
-    }
-    else if (x == 5) {
-        $(".image2").html("<img src= 'images/dice5.png' />");
-    }
-    else {
-        $(".image2").html("<img src= 'images/dice6.png' />");
-    }
-}
-
+//finding which player won and entering an emoji to the side of the winner
 function findWinner(x, y) {
     if (x == y) {
         $("#winner").text("Players 1 and 2 Win!!!");

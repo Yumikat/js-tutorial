@@ -22,7 +22,4 @@ emoji to the winner's side of the screen. You can use an emoji for this, and it 
 8. Feel free to add a footer with a message on it.
 
 
-<!-- Okay, so I got most of the parts working, albeit - in a very roundabout way. I KNOW there has to be better ways to do this... But, this is
-what I've been able to come up with so far. I am not sure why I cannot get the emoji to work out correctly.... Oh nevermind - I guess I didn't have the updated CDN for 
-font awesome. Well, I think I have all parts working now. 
-Tell me what you think-->
+<!-- Thanks for reminding me about the tick mark! I kept using the single quote instead, haha. I think this looks much better, thanks for the suggestion of setting the link first before deciding which player it went under - that made it a lot shorter and cleaner-->
